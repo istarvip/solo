@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>IconFont</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="iconfont.css">
+</head>
+<body>
+    <div class="main">
+        <h1>IconFont 图标</h1>
+        <ul class="icon_lists clear">
+            
+                <li>
+                <i class="icon iconfont">&#xe6bb;</i>
+                    <div class="name">tieba0</div>
+                    <div class="code">&amp;#xe6bb;</div>
+                    <div class="fontclass">.tieba0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe682;</i>
+                    <div class="name">baidutieba</div>
+                    <div class="code">&amp;#xe682;</div>
+                    <div class="fontclass">.baidutieba</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe686;</i>
+                    <div class="name">dayin</div>
+                    <div class="code">&amp;#xe686;</div>
+                    <div class="fontclass">.dayin</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe687;</i>
+                    <div class="name">diandian</div>
+                    <div class="code">&amp;#xe687;</div>
+                    <div class="fontclass">.diandian</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe688;</i>
+                    <div class="name">douban</div>
+                    <div class="code">&amp;#xe688;</div>
+                    <div class="fontclass">.douban</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe689;</i>
+                    <div class="name">facebook</div>
+                    <div class="code">&amp;#xe689;</div>
+                    <div class="fontclass">.facebook</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe692;</i>
+                    <div class="name">jia</div>
+                    <div class="code">&amp;#xe692;</div>
+                    <div class="fontclass">.jia</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe691;</i>
+                    <div class="name">iconfont-shoucang</div>
+                    <div class="code">&amp;#xe691;</div>
+                    <div class="fontclass">.iconfontshoucang</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe690;</i>
+                    <div class="name">huaban</div>
+                    <div class="code">&amp;#xe690;</div>
+                    <div class="fontclass">.huaban</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe68f;</i>
+                    <div class="name">google0</div>
+                    <div class="code">&amp;#xe68f;</div>
+                    <div class="fontclass">.google0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe68e;</i>
+                    <div class="name">google</div>
+                    <div class="code">&amp;#xe68e;</div>
+                    <div class="fontclass">.google</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe68d;</i>
+                    <div class="name">fuzhilianjie</div>
+                    <div class="code">&amp;#xe68d;</div>
+                    <div class="fontclass">.fuzhilianjie</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe68c;</i>
+                    <div class="name">flicker</div>
+                    <div class="code">&amp;#xe68c;</div>
+                    <div class="fontclass">.flicker</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe68a;</i>
+                    <div class="name">facebook0</div>
+                    <div class="code">&amp;#xe68a;</div>
+                    <div class="fontclass">.facebook0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe68b;</i>
+                    <div class="name">fisocialyahoo</div>
+                    <div class="code">&amp;#xe68b;</div>
+                    <div class="fontclass">.fisocialyahoo</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe695;</i>
+                    <div class="name">kongjian</div>
+                    <div class="code">&amp;#xe695;</div>
+                    <div class="fontclass">.kongjian</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe696;</i>
+                    <div class="name">kongjian0</div>
+                    <div class="code">&amp;#xe696;</div>
+                    <div class="fontclass">.kongjian0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe697;</i>
+                    <div class="name">linkedin</div>
+                    <div class="code">&amp;#xe697;</div>
+                    <div class="fontclass">.linkedin</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe698;</i>
+                    <div class="name">linkedin0</div>
+                    <div class="code">&amp;#xe698;</div>
+                    <div class="fontclass">.linkedin0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe699;</i>
+                    <div class="name">meilishuo</div>
+                    <div class="code">&amp;#xe699;</div>
+                    <div class="fontclass">.meilishuo</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe69a;</i>
+                    <div class="name">pengyouquan</div>
+                    <div class="code">&amp;#xe69a;</div>
+                    <div class="fontclass">.pengyouquan</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe69b;</i>
+                    <div class="name">pengyouquan0</div>
+                    <div class="code">&amp;#xe69b;</div>
+                    <div class="fontclass">.pengyouquan0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6a3;</i>
+                    <div class="name">renren0</div>
+                    <div class="code">&amp;#xe6a3;</div>
+                    <div class="fontclass">.renren0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6a2;</i>
+                    <div class="name">renren</div>
+                    <div class="code">&amp;#xe6a2;</div>
+                    <div class="fontclass">.renren</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6a1;</i>
+                    <div class="name">qq0</div>
+                    <div class="code">&amp;#xe6a1;</div>
+                    <div class="fontclass">.qq0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6a0;</i>
+                    <div class="name">qq</div>
+                    <div class="code">&amp;#xe6a0;</div>
+                    <div class="fontclass">.qq</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe69f;</i>
+                    <div class="name">pinterest0</div>
+                    <div class="code">&amp;#xe69f;</div>
+                    <div class="fontclass">.pinterest0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe69e;</i>
+                    <div class="name">pinterest</div>
+                    <div class="code">&amp;#xe69e;</div>
+                    <div class="fontclass">.pinterest</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe69d;</i>
+                    <div class="name">pengyouquanyin0</div>
+                    <div class="code">&amp;#xe69d;</div>
+                    <div class="fontclass">.pengyouquanyin0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6a5;</i>
+                    <div class="name">sina0</div>
+                    <div class="code">&amp;#xe6a5;</div>
+                    <div class="fontclass">.sina0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6a6;</i>
+                    <div class="name">taobao</div>
+                    <div class="code">&amp;#xe6a6;</div>
+                    <div class="fontclass">.taobao</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6a7;</i>
+                    <div class="name">taobaoyin</div>
+                    <div class="code">&amp;#xe6a7;</div>
+                    <div class="fontclass">.taobaoyin</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6a8;</i>
+                    <div class="name">tianya</div>
+                    <div class="code">&amp;#xe6a8;</div>
+                    <div class="fontclass">.tianya</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6aa;</i>
+                    <div class="name">twitter</div>
+                    <div class="code">&amp;#xe6aa;</div>
+                    <div class="fontclass">.twitter</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6ab;</i>
+                    <div class="name">twitter0</div>
+                    <div class="code">&amp;#xe6ab;</div>
+                    <div class="fontclass">.twitter0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6ac;</i>
+                    <div class="name">wangwang</div>
+                    <div class="code">&amp;#xe6ac;</div>
+                    <div class="fontclass">.wangwang</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6ad;</i>
+                    <div class="name">wangyi</div>
+                    <div class="code">&amp;#xe6ad;</div>
+                    <div class="fontclass">.wangyi</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6b6;</i>
+                    <div class="name">youjian</div>
+                    <div class="code">&amp;#xe6b6;</div>
+                    <div class="fontclass">.youjian</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6b5;</i>
+                    <div class="name">yixin0</div>
+                    <div class="code">&amp;#xe6b5;</div>
+                    <div class="fontclass">.yixin0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6b4;</i>
+                    <div class="name">yixin</div>
+                    <div class="code">&amp;#xe6b4;</div>
+                    <div class="fontclass">.yixin</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6b3;</i>
+                    <div class="name">xin</div>
+                    <div class="code">&amp;#xe6b3;</div>
+                    <div class="fontclass">.xin</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6b2;</i>
+                    <div class="name">weixin0</div>
+                    <div class="code">&amp;#xe6b2;</div>
+                    <div class="fontclass">.weixin0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6b1;</i>
+                    <div class="name">weixin</div>
+                    <div class="code">&amp;#xe6b1;</div>
+                    <div class="fontclass">.weixin</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6b0;</i>
+                    <div class="name">weiboo</div>
+                    <div class="code">&amp;#xe6b0;</div>
+                    <div class="fontclass">.weiboo</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6af;</i>
+                    <div class="name">weibo</div>
+                    <div class="code">&amp;#xe6af;</div>
+                    <div class="fontclass">.weibo</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6ae;</i>
+                    <div class="name">wangyi0</div>
+                    <div class="code">&amp;#xe6ae;</div>
+                    <div class="fontclass">.wangyi0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6b8;</i>
+                    <div class="name">zhifubao</div>
+                    <div class="code">&amp;#xe6b8;</div>
+                    <div class="fontclass">.zhifubao</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6b9;</i>
+                    <div class="name">zhifubao0</div>
+                    <div class="code">&amp;#xe6b9;</div>
+                    <div class="fontclass">.zhifubao0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe680;</i>
+                    <div class="name">baidu</div>
+                    <div class="code">&amp;#xe680;</div>
+                    <div class="fontclass">.baidu</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe681;</i>
+                    <div class="name">baidu0</div>
+                    <div class="code">&amp;#xe681;</div>
+                    <div class="fontclass">.baidu0</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6b7;</i>
+                    <div class="name">youjian0</div>
+                    <div class="code">&amp;#xe6b7;</div>
+                    <div class="fontclass">.youjian0</div>
+                </li>
+            
+        </ul>
+
+
+        <div class="helps">
+            第一步：使用font-face声明字体
+            <pre>
+@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+</pre>
+第二步：定义使用iconfont的样式
+            <pre>
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+</pre>
+第三步：挑选相应图标并获取字体编码，应用于页面
+<pre>
+&lt;i class="iconfont"&gt;&amp;#x33;&lt;/i&gt;
+</pre>
+        </div>
+
+    </div>
+</body>
+</html>
