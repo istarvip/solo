@@ -67,6 +67,7 @@
                 </section>
 
                 <footer class="fn-clear share">
+                  <#include "share.ftl">
                     <div class="fn-right">
                         <span class="icon icon-t-weibo" data-type="tencent"></span>
                         <span class="icon icon-weibo" data-type="weibo"></span>
@@ -75,14 +76,49 @@
                     </div>
                 </footer>
             </article>
-
-            <@comments commentList=articleComments article=article></@comments>
-
+			 <!--畅言--> 
+	   
+	    	<div style="width: 90%; height: auto; margin:0 auto;">  
+	        <button type="button" id="doc-single-toggle" class="button gray">切换留言系统</button>  
+		    <div id="display"  style="display:block;">
+			    <div id="SOHUCS"></div>
+				<script charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/changyan.js" ></script>
+				<script type="text/javascript">
+					window._config = {showScore: true };
+					window.changyan.api.config({
+						appid: 'cysdFdaH2',
+						conf: 'prod_1a2fb091c35a174325636f20cae88df3'
+					});
+			   </script> 	
+		    </div>
+	    </div>
+	    <div id="hide"  style="display:none;">
+		 <@comments commentList=articleComments article=article></@comments>
+	    </div>
             <#include "footer.ftl">
 
             <@comment_script oId=article.oId>
             page.tips.externalRelevantArticlesDisplayCount = "${externalRelevantArticlesDisplayCount}";
-            </@comment_script>    
+            </@comment_script>  
+             <script>  
+                $(function() {
+				    var $toggleButton = $('#doc-single-toggle');
+				    $toggleButton.on('click', function() { 
+				      var divStyle =document.getElementById('display').style.display; 
+				      DisplayAndHidden(divStyle);
+				    }); 
+				    function DisplayAndHidden(divStyle) { 
+					    if (divStyle == "block") {
+					      document.getElementById('display').style.display="none"; 
+					      document.getElementById('hide').style.display="block"; 
+					    }
+					    else if (divStyle == "none") {
+					     document.getElementById('display').style.display="block";  
+					     document.getElementById('hide').style.display="none";  
+					    }
+				   }
+			  })
+		 </script>
         </main>
     </body>
 </html>

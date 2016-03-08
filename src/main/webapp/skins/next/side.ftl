@@ -35,16 +35,17 @@
                 </li>
             </ul>
         </nav>
-        <footer>
+        <footer class="account">
             <#if noticeBoard??>
             <div>${noticeBoard}</div>
             </#if>
             <#if isLoggedIn>
             <a href="${servePath}/admin-index.do#main" title="${adminLabel}" class="icon-setting"></a>
-            &nbsp; &nbsp; 
+            &nbsp; &nbsp;  
             <a title="${logoutLabel}" class="icon-logout" href="${logoutURL}"></a>
             <#else>
-            <a title="${loginLabel}" href="${loginURL}" class="icon-login"></a>
+            <!--href="${loginURL}"-->  
+            <a title="${loginLabel}"  class="icon-login"></a>
             &nbsp; &nbsp; 
             <a href="${servePath}/register" title="${registerLabel}" class="icon-register"></a>
             </#if> &nbsp; &nbsp; 

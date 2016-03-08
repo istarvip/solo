@@ -276,6 +276,7 @@
                         <include>**/src/*/webapp/js/admin/*.js</include>
                         <include>**/src/*/resources/*.properties</include>
                         <include>**/src/*/webapp/WEB-INF/*.xml</include>
+                        <include>**/src/*/webapp/WEB-INF/lib/*.jar</include>
                     </includes>
                     <excludes>
                         <exclude>**/src/main/java/**/package-info.java</exclude>
@@ -321,6 +322,7 @@
                         <param>editorTinyMCE.js</param>
                         <param>editorKindEditor.js</param>
                         <param>editorCodeMirror.js</param>
+                        <param>editorUeditor.js</param>
                         <param>tablePaginate.js</param>
                         <param>article.js</param>
                         <param>comment.js</param>
