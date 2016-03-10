@@ -458,6 +458,7 @@ pre code, pre tt {
     position: fixed;
     background-color: #FFF;
     height: 100%;
+    z-index: 3147483647;
     width: 300px;
 }
 
@@ -1009,7 +1010,17 @@ background: -moz-linear-gradient(top,#e4e8ec,#e4e8ec);
 background: linear-gradient(top,#e4e8ec,#e4e8ec);
 } 
 /*end 切换留言*/ 
+/***移动端评论系统**/
 
+section#cy-latest-list-wrapper article{
+        margin: 0px; 
+    background: #eaeaea;
+    position: relative;
+    visibility: visible; 
+    transition: all 0.2s ease-in; 
+
+}
+/***移动端评论系统**/
 /* start responsive */
 @media only screen and (max-width: 600px) {
     .side {
