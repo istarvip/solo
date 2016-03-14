@@ -14,6 +14,11 @@
 <script src="${staticServePath}/js/lib/ueditor/ueditor.config.js"></script>
 <script src="${staticServePath}/js/lib/ueditor/ueditor.all.js"></script>
 <script src="${staticServePath}/js/common${miniPostfix}.js"></script> 
+ 
+<link rel="stylesheet" type="text/css" href="${staticServePath}/js/lib/sg/css/sg.css"> 
+<script  src="${staticServePath}/js/lib/sg/sgutil.js"></script>
+<script  src="${staticServePath}/js/lib/sg/sg.js"></script>
+
 <#if "" == miniPostfix>
 <script src="${staticServePath}/js/admin/admin.js"></script>
 <script src="${staticServePath}/js/admin/editor.js"></script>

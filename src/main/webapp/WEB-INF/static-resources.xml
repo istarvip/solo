@@ -258,7 +258,51 @@
 	<include path="/upload/file/**/*.md" />
 	<include path="/upload/file/**.xml" />
 	<include path="/upload/file/**/*.xml" />
-    
+    <!-- sg库 -->
+	<include path="/sg/**.js" />
+	<include path="/sg/**/*.js" />
+	<include path="/sg/**.css" />
+	<include path="/sg/**/*.css" />
+	<include path="/sg/**.htm" />
+	<include path="/sg/**/*.htm" />
+	<include path="/sg/**.html" />
+	<include path="/sg/**/*.html" />
+	<include path="/sg/**.gif" />
+	<include path="/sg/**/*.gif" />
+	<include path="/sg/**.png" />
+	<include path="/sg/**/*.png" />
+	<include path="/sg/**.jpg" />
+	<include path="/sg/**/*.jpg" /> 
+	
+	<!--谷歌搜索-->
+    <include path="/css/**.css" />
+    <include path="/css/**/*.css" />
+	<include path="/css/search/v2/*.css" />
+	<include path="/css/search/v2/**.css" />
+    <include path="/css/search/v2/**/*.css" />
+	<include path="/css/search/mobile/v2/*.css" />
+	<include path="/css/search/mobile/v2/**.css" />
+    <include path="/css/search/mobile/v2/**/*.css" /> 
+	<include path="/css/search/css/*.css" />
+	<include path="/css/search/css/**.css" />
+	<include path="/css/search/images/*.gif" />
+	<include path="/css/search/images/**.gif" />
+    <include path="/css/search/images/**/*.gif" />
+	<include path="/css/search/images/*.png" />
+	<include path="/css/search/images/**.png" />
+    <include path="/css/search/images/**/*.png" />
+
+	<include path="/css/search/js/**.js" />
+    <include path="/css/search/js/**/*.js" />  
+	<include path="/css/search/js/*.js" />
+	<include path="/css/search/lang/*.js" />
+	<include path="/css/search/lang/**.js" />
+    <include path="/css/search/lang/**/*.js" /> 
+	<include path="/css/search/lang/**.css" />
+    <include path="/css/search/lang/**/*.css" />
+    <include path="/css/search/**.html" />
+	<include path="/css/search/*.html" />
+	
     <include path="/CHANGE_LOGS.html" />
     <include path="/README.txt" />
     <include path="/LICENSE.txt" />

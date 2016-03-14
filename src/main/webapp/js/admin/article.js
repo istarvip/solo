@@ -172,8 +172,8 @@ admin.article = {
                     "articleCommentable": $("#articleCommentable").prop("checked"),
                     "articleViewPwd": $("#viewPwd").val()
                 }
-            };
-
+            }; 
+			var Aid="";//文章id
             $.ajax({
                 url: latkeConfig.servePath + "/console/article/",
                 type: "POST",
@@ -184,8 +184,8 @@ admin.article = {
                         $("#tipMsg").text(Label.autoSaveLabel);
                         admin.article.status.id = result.oId;
                         return;
-                    }
-
+                    } 
+					Aid=result.oId;
                     $("#tipMsg").text(result.msg);
                     if (!result.sc) {
                         return;
@@ -197,7 +197,31 @@ admin.article = {
                     } else {
                         admin.selectTab("article/draft-list");
                     }
-
+					//成功提示是否推送
+					if (articleIsPublished) {  
+						 $.tzConfirm({title:"温馨提示",content:"您需要将连接提交百度吗?",callback:function(ok){
+								if(ok){
+									 $.ajax({
+										url:"/articles/toPull*",
+										type: "GET",
+										data: {"articleId":Aid,"path":latkeConfig.servePath},      
+										error: function(data) { 
+										},
+										success: function(data) { 
+											 var data = $.parseJSON(data);  
+											  console.log(data.remain+"==="+data.success); 
+											  //提示推送结果
+											  if(data.success=="0"){
+												  loading("推送失败",4);
+											  }else{
+												  loading("推送成功",4);
+											  }
+											  console.log(data);
+										}
+    								}); 
+								 }
+					     }});	
+					};
                     admin.article.isConfirm = false;
                 },
                 complete: function (jqXHR, textStatus) {
@@ -248,8 +272,8 @@ admin.article = {
                     "postToCommunity": $("#postToCommunity").prop("checked"),
                     "articleEditorType": admin.article.currentEditorType
                 }
-            };
-
+            }; 
+			var Aid="";
             $.ajax({
                 url: latkeConfig.servePath + "/console/article/",
                 type: "PUT",
@@ -259,21 +283,45 @@ admin.article = {
                     if (isAuto) {
                         $("#tipMsg").text(Label.autoSaveLabel);
                         return;
-                    }
-
+                    } 
+					Aid=requestJSONObject.article.oId;//文章id
                     $("#tipMsg").text(result.msg);
                     if (!result.sc) {
                         return;
-                    }
-
-                    if (articleIsPublished) {
+                    } 
+                    if (articleIsPublished) { 
                         admin.selectTab("article/article-list");
                     } else {
                         admin.selectTab("article/draft-list");
                     }
-
+					console.log(articleIsPublished);
+					console.log(result);
                     $("#tipMsg").text(Label.updateSuccLabel);
-
+					//成功提示是否推送
+					if (articleIsPublished) {  
+						 $.tzConfirm({title:"温馨提示",content:"您需要将连接提交百度吗?",callback:function(ok){
+								if(ok){
+									 $.ajax({
+										url:"/articles/toPull*",
+										type: "GET",
+										data: {"articleId":Aid,"path":latkeConfig.servePath},      
+										error: function(data) { 
+										},
+										success: function(data) { 
+											 var data = $.parseJSON(data);  
+											  console.log(data.remain+"==="+data.success); 
+											  //提示推送结果
+											  if(data.success=="0"){
+												  loading("推送失败",4);
+											  }else{
+												  loading("推送成功",4);
+											  }  
+											  console.log(data);
+										}
+    								}); 
+								 }
+					     }});	
+					};
                     admin.article.status.id = undefined;
                     admin.article.isConfirm = false;
                 },

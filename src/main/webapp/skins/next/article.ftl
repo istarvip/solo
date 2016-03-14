@@ -82,12 +82,12 @@
 			     <Tag> 
 			    <div id="SOHUCS"></div> 
 			    </Tag> 
-		    </div>
+		    </div> 
 	    </div>
 	    <div id="hide"  style="display:none;">
 		 <@comments commentList=articleComments article=article></@comments>
 	    </div>
-            <#include "footer.ftl">
+            <#include "footer.ftl"> 
  			<script type="text/javascript"> 
 				    var src="";
 				    var id=null;

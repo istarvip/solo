@@ -1026,6 +1026,7 @@ section#cy-latest-list-wrapper article{
     .side {
         position: relative;
         height: auto;
+        z-index: 0;
         width: 100%;
     }
     .side .avatar {

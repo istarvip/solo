@@ -43,8 +43,8 @@
 	 <div id="modal">
 		<span>登陆<a href="#close" id="close">×</a></span>
 		<form>
-			<input id="userEmail" name="username" type="textbox" tabindex="1" placeholder="userEmail" required />
-			<input id="userPassword" name="password" type="password" placeholder="Password" required />
+			<input id="userEmail" name="username"  placeholder="userEmail"   />
+			<input id="userPassword" name="password" type="password" placeholder="Password"   />
 			<a href="javascript:void(0);" onclick="getPwd(this);"  >忘记密码？</a>  
 			<span id="forgot" style="display:none;">
                              <input id="emailPassword" placeholder="请输入邮箱"/>
